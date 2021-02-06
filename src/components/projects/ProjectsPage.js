@@ -65,7 +65,7 @@ class ProjectsPage extends React.Component {
 							uid={project.uid}
 							link={project.uid}
 							title={project["Project Name"]}
-							description={project.description}
+							description={project["Project Description"]}
 							img={project.logo ? project.logo[0].url : ""}
 						/>
 					</Col>
